@@ -116,7 +116,7 @@ public class ExcelUtil {
 		long blockSize = statFs.getBlockSize();
 		long availableBlocks = statFs.getAvailableBlocks();
 		long availableSize = blockSize * availableBlocks;
-		// Formatter.formatFileSize(context, availableSize);
+		// Formatter.formatFileSize(context, availableSize);；
 		return availableSize;
 	}
 }
