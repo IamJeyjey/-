@@ -74,7 +74,7 @@ public class MainActivity extends AppCompatActivity {
     private double getRadom(float v,float score) {
         java.util.Random random = new java.util.Random();
         double x = (v * random.nextGaussian() + score);
-        if (x >= 5 && x <= 8.3) {
+        if (x >= 5 && x <= 8) {
             return x;
         } else {
             return getRadom(v,score);
